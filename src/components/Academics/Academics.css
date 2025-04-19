@@ -1,0 +1,53 @@
+/* Academics.css */
+.academics-container {
+  position: relative;
+  padding: 100px 20px 50px; /* Adds spacing to prevent navbar overlap */
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+}
+
+.academics-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.academics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.academic-card {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  width: 320px;
+  text-align: left;
+}
+
+.academic-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.academic-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: normal;
+  color: #d4bfff;
+}
+
+.academic-duration,
+.academic-cgpa {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.academic-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
